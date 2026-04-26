@@ -6,15 +6,16 @@
     <title>Sally Savista Anindya</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="50">
 
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#home">Sally Savista Anindya</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -22,41 +23,40 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- HOME -->
     <header class="masthead" id="home">
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                <div class="col-lg-8">
-                    <img src="pasfoto.jpg" alt="Foto Profil" class="profile-img mb-4 animate__animated" data-animation="fadeInDown">
-                    <h1 class="text-uppercase mb-0 animate__animated" data-animation="fadeIn">Hello World!</h1>
-                    <h2 class="text-white-50 mb-4 animate__animated" data-animation="fadeInUp">I'm Sally Savista Anindya</h2>
-                    <h1 class="text-white-50 fw-bold mb-5 animate__animated" data-animation="fadeIn">Information Technology Student</h1>
-                    
-                    <p class="text-white-75 mb-5 mx-auto animate__animated" data-animation="fadeInUp">
-                       I am an undergraduate student in the Department of Information Technology, majoring in Business Information Systems (D-IV) at State Polytechnic of Malang. During my academic journey, I have been introduced to the fundamental concepts of web development, database systems, and basic networking through coursework and hands-on assignments.
+                <div class="col-lg-8 fade-in-hero">
+                    <img src="pasfoto.jpg" alt="Foto Profil" class="profile-img mb-4">
+                    <h2 class="text-white mb-1">Sally Savista Anindya</h2>
+                    <h3 class="text-white-50 fw-semibold mb-4">Information Technology Student</h3>
+                    <p class="text-white-75 mb-4 mx-auto">
+                        I am an undergraduate student in the Department of Information Technology, majoring in Business Information Systems (D-IV) at State Polytechnic of Malang. During my academic journey, I have been introduced to the fundamental concepts of web development, database systems, and basic networking through coursework and hands-on assignments.
                     </p>
-                    <p class="text-white-75 mb-5 mx-auto animate__animated" data-animation="fadeInUp">
-                       I am familiar with completing academic projects that require attention to detail, problem-solving, and effective time management. As a student, I am continuously developing both my technical and non-technical skills and remain highly motivated to learn, adapt, and grow within the technology field. Interested in data analysis, database management, and business-driven information systems.
+                    <p class="text-white-75 mb-5 mx-auto">
+                        I am familiar with completing academic projects that require attention to detail, problem-solving, and effective time management. Continuously developing both my technical and non-technical skills, I remain highly motivated to learn, adapt, and grow within the technology field. Interested in data analysis, database management, and business-driven information systems.
                     </p>
-
-                    <a class="btn btn-primary btn-xl animate__animated" data-animation="zoomIn" href="mycv.pdf" target="_blank">View My CV</a>
+                    <a class="btn btn-primary btn-xl" href="mycv.pdf" target="_blank">View My CV</a>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- EDUCATION -->
     <section class="page-section" id="education">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0 animate__animated" data-animation="fadeInDown">Education</h2>
+            <h2 class="text-center mt-0">Education</h2>
             <hr class="divider mb-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                
-                <div class="col-lg-5 col-md-6 mb-4 animate__animated" data-animation="fadeInLeft">
+                <div class="col-lg-5 col-md-6 mb-4">
                     <div class="card education-card p-4 shadow h-100">
                         <div class="icon-wrapper mb-3">
                             <i class="fas fa-graduation-cap fa-3x"></i>
@@ -66,8 +66,7 @@
                         <p class="card-text text-muted">Years: 2024 – Present</p>
                     </div>
                 </div>
-
-                <div class="col-lg-5 col-md-6 mb-4 animate__animated" data-animation="fadeInRight">
+                <div class="col-lg-5 col-md-6 mb-4">
                     <div class="card education-card p-4 shadow h-100">
                         <div class="icon-wrapper mb-3">
                             <i class="fas fa-school fa-3x"></i>
@@ -77,18 +76,17 @@
                         <p class="card-text text-muted">Years: 2021 – 2024</p>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
-    
+
+    <!-- EXPERIENCE -->
     <section class="page-section bg-light" id="experience">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0 animate__animated" data-animation="fadeInDown">Experience</h2>
+            <h2 class="text-center mt-0">Experience</h2>
             <hr class="divider mb-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                
-                <div class="col-lg-5 col-md-6 mb-4 animate__animated" data-animation="fadeInLeft">
+                <div class="col-lg-5 col-md-6 mb-4">
                     <div class="card experience-card p-4 shadow h-100">
                         <div class="icon-wrapper mb-3">
                             <i class="fas fa-store fa-3x"></i>
@@ -98,8 +96,7 @@
                         <p class="card-text">Sales Assistant</p>
                     </div>
                 </div>
-
-                <div class="col-lg-5 col-md-6 mb-4 animate__animated" data-animation="fadeInRight">
+                <div class="col-lg-5 col-md-6 mb-4">
                     <div class="card experience-card p-4 shadow h-100">
                         <div class="icon-wrapper mb-3">
                             <i class="fas fa-users fa-3x"></i>
@@ -109,35 +106,142 @@
                         <p class="card-text">Sekretaris Pelaksana Seminar Nasional Tahun 2025</p>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
 
-    <section class="page-section" id="contact">
+    <!-- PROJECTS -->
+    <section class="page-section" id="projects">
         <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0 animate__animated" data-animation="fadeInDown">Contact Me</h2>
+            <h2 class="text-center mt-0">Projects</h2>
+            <hr class="divider mb-3">
+            <p class="text-center text-muted mb-5">Project Based Learning</p>
+
+            <!-- Baris 1 -->
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+
+                <!-- Project 1: Web Sem 3 -->
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="card project-card shadow h-100"
+                         data-title="Laboratory for Applied Informatics"
+                         data-semester="Semester 3"
+                         data-type="web"
+                         data-type-label="Web"
+                         data-tags="HTML,CSS,JavaScript,PHP,PostgreSQL"
+                         data-img="web.png"
+                         data-desc="Proyek yang dilaksanakan dalam rangka Project Based Learning di Lab Applied Informatics Polinema bertujuan untuk mengembangkan sebuah sistem berbasis web sebagai solusi atas kebutuhan pengelolaan proses bisnis yang ada di lingkungan laboratorium. Sistem ini dirancang untuk meningkatkan efisiensi administrasi, mempermudah akses informasi, serta mendukung digitalisasi layanan di Lab AI. Pengembangan sistem menggunakan native, yaitu HTML, CSS, dan JavaScript untuk frontend serta PHP native untuk backend, dengan PostgreSQL sebagai database. Fitur utama mencakup pengelolaan data, akses multi-level user, pencatatan aktivitas, serta penyediaan informasi yang relevan bagi mahasiswa maupun dosen pengampu.">
+                        <div class="project-preview">
+                            <img src="web.png" alt="Lab Applied Informatics" class="project-img">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="badge-semester me-2">Semester 3</span>
+                                <span class="badge-type web">Web</span>
+                            </div>
+                            <h5 class="card-title mt-2">Laboratory for Applied Informatics</h5>
+                            <p class="card-text-short text-muted">Sistem berbasis web untuk pengelolaan proses bisnis laboratorium Applied Informatics Polinema.</p>
+                            <div class="tech-stack mt-3">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                            <p class="click-hint mt-3 mb-0"><i class="fas fa-hand-pointer me-1"></i>Klik untuk lihat detail</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Mobile Sem 4 -->
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="card project-card shadow h-100"
+                         data-title="E-Kompen JTI Polinema"
+                         data-semester="Semester 4"
+                         data-type="mobile"
+                         data-type-label="Mobile"
+                         data-tags="Flutter,Dart,PostgreSQL"
+                         data-img="mobile.png"
+                         data-desc="Proyek yang dikembangkan dalam kegiatan Product Based Learning ini berfokus pada pembuatan aplikasi mobile sebagai solusi digital untuk mengelola proses kompensasi mahasiswa di lingkungan kampus. Aplikasi ini dirancang untuk menggantikan prosedur manual agar pelayanan menjadi lebih tertata, transparan, dan mudah diakses. Pengembangan dilakukan menggunakan framework Flutter dengan bahasa pemrograman Dart sehingga aplikasi dapat berjalan secara cross-platform, yang kemudian terhubung dengan backend serta memanfaatkan PostgreSQL sebagai basis data. Fitur utama yang disediakan meliputi manajemen data kompensasi, akses multi-level user seperti admin, dosen, kaprodi, dan mahasiswa, pencatatan serta monitoring aktivitas, penyampaian notifikasi penting, dan antarmuka yang responsif untuk memastikan pengalaman penggunaan yang optimal.">
+                        <div class="project-preview">
+                            <img src="mobile.png" alt="E-Kompen JTI" class="project-img">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="badge-semester me-2">Semester 4</span>
+                                <span class="badge-type mobile">Mobile</span>
+                            </div>
+                            <h5 class="card-title mt-2">Aplikasi E-Kompen JTI Polinema</h5>
+                            <p class="card-text-short text-muted">Aplikasi mobile cross-platform untuk manajemen proses kompensasi mahasiswa di kampus.</p>
+                            <div class="tech-stack mt-3">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                            <p class="click-hint mt-3 mb-0"><i class="fas fa-hand-pointer me-1"></i>Klik untuk lihat detail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Baris 2: tengah -->
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+
+                <!-- Project 3: Web K3 Sem 4 -->
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="card project-card shadow h-100"
+                         data-title="Sistem Informasi K3"
+                         data-semester="Semester 4"
+                         data-type="web"
+                         data-type-label="Web"
+                         data-tags="HTML,CSS,JavaScript"
+                         data-img="web-k3.png"
+                         data-desc="Website statis PT Rosarca Beauty ini merupakan sistem informasi berbasis web yang dirancang untuk menyajikan informasi Keselamatan dan Kesehatan Kerja (K3) khusus pada industri kosmetik. Halaman utama (beranda) menampilkan profil singkat perusahaan beserta slogan “Safe · Beautiful · Responsible” yang mencerminkan komitmen terhadap keselamatan kerja. Navigasi utama terdiri dari beberapa menu, yaitu Beranda, Profil & Dasar Hukum, Denah & Zonasi, Analisis K3, APD & Fasilitas, serta Video P3K, yang masing-masing berfungsi untuk memberikan informasi spesifik terkait aspek K3. Fitur Profil & Dasar Hukum berisi informasi perusahaan dan regulasi K3, sedangkan Denah & Zonasi menampilkan pembagian area berdasarkan tingkat risiko (zona merah, kuning, dan hijau). Pada Analisis K3, pengguna dapat melihat identifikasi bahaya dan risiko kerja, sementara APD & Fasilitas menyediakan informasi mengenai alat pelindung diri yang digunakan. Fitur Video P3K berfungsi sebagai media edukasi pertolongan pertama. Selain itu, terdapat juga ringkasan informasi pada halaman utama seperti jumlah zona, jenis APD, jumlah regulasi, serta standar keselamatan (ISO 3864). Website ini dilengkapi dengan tombol aksi seperti “Mulai Eksplorasi” dan “Tonton Video P3K” untuk meningkatkan interaksi pengguna, serta desain antarmuka yang responsif dan menarik sehingga memudahkan akses informasi secara cepat dan efektif.">
+                        <div class="project-preview">
+                            <img src="web-k3.png" alt="Sistem Informasi K3" class="project-img">
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="badge-semester me-2">Semester 4</span>
+                                <span class="badge-type web">Web</span>
+                            </div>
+                            <h5 class="card-title mt-2">Sistem Informasi K3</h5>
+                            <p class="card-text-short text-muted">Website statis PT Rosarca Beauty ini merupakan sistem informasi berbasis web yang dirancang untuk menyajikan informasi Keselamatan dan Kesehatan Kerja (K3) khusus pada industri kosmetik. Halaman utama (beranda) menampilkan profil singkat perusahaan beserta slogan “Safe · Beautiful · Responsible” yang mencerminkan komitmen terhadap keselamatan kerja. Navigasi utama terdiri dari beberapa menu, yaitu Beranda, Profil & Dasar Hukum, Denah & Zonasi, Analisis K3, APD & Fasilitas, serta Video P3K, yang masing-masing berfungsi untuk memberikan informasi spesifik terkait aspek K3. Fitur Profil & Dasar Hukum berisi informasi perusahaan dan regulasi K3, sedangkan Denah & Zonasi menampilkan pembagian area berdasarkan tingkat risiko (zona merah, kuning, dan hijau). Pada Analisis K3, pengguna dapat melihat identifikasi bahaya dan risiko kerja, sementara APD & Fasilitas menyediakan informasi mengenai alat pelindung diri yang digunakan. Fitur Video P3K berfungsi sebagai media edukasi pertolongan pertama. Selain itu, terdapat juga ringkasan informasi pada halaman utama seperti jumlah zona, jenis APD, jumlah regulasi, serta standar keselamatan (ISO 3864). Website ini dilengkapi dengan tombol aksi seperti “Mulai Eksplorasi” dan “Tonton Video P3K” untuk meningkatkan interaksi pengguna, serta desain antarmuka yang responsif dan menarik sehingga memudahkan akses informasi secara cepat dan efektif.</p>
+                            <div class="tech-stack mt-3">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <p class="click-hint mt-3 mb-0"><i class="fas fa-hand-pointer me-1"></i>Klik untuk lihat detail</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page-section bg-light" id="contact">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Contact Me</h2>
             <hr class="divider mb-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <p class="mb-5 animate__animated" data-animation="fadeIn">
-                        Let’s collaborate, explore new ideas, and create something meaningful together.
-                    </p>
-
+                    <p class="mb-5">Let's collaborate, explore new ideas, and create something meaningful together.</p>
                     <div class="list-group list-group-flush mb-5">
-                        <a href="mailto:sallyysavista@gmail.com" target="_blank" class="list-group-item list-group-item-action contact-item animate__animated" data-animation="zoomIn">
+                        <a href="mailto:sallyysavista@gmail.com" target="_blank" class="list-group-item list-group-item-action contact-item">
                             <i class="fas fa-envelope fa-2x me-3" style="color: #ea4335;"></i> Gmail
                         </a>
-                        <a href="https://wa.me/+6281233304992" target="_blank" class="list-group-item list-group-item-action contact-item animate__animated" data-animation="zoomIn">
+                        <a href="https://wa.me/+6281233304992" target="_blank" class="list-group-item list-group-item-action contact-item">
                             <i class="fab fa-whatsapp fa-2x me-3" style="color: #25d366;"></i> WhatsApp
                         </a>
-                        <a href="https://instagram.com/sallysvsta" target="_blank" class="list-group-item list-group-item-action contact-item animate__animated" data-animation="zoomIn">
+                        <a href="https://instagram.com/sallysvsta" target="_blank" class="list-group-item list-group-item-action contact-item">
                             <i class="fab fa-instagram fa-2x me-3" style="color: #E1306C;"></i> Instagram
                         </a>
-                        <a href="https://github.com/sallysvsta" target="_blank" class="list-group-item list-group-item-action contact-item animate__animated" data-animation="zoomIn">
+                        <a href="https://github.com/sallysvsta" target="_blank" class="list-group-item list-group-item-action contact-item">
                             <i class="fab fa-github fa-2x me-3" style="color: #333;"></i> GitHub
                         </a>
-                         <a href="https://linkedin.com/in/sally-savista-anindya" target="_blank" class="list-group-item list-group-item-action contact-item animate__animated" data-animation="zoomIn">
+                        <a href="https://linkedin.com/in/sally-savista-anindya" target="_blank" class="list-group-item list-group-item-action contact-item">
                             <i class="fab fa-linkedin fa-2x me-3" style="color: #0077b5;"></i> LinkedIn
                         </a>
                     </div>
@@ -148,9 +252,30 @@
 
     <footer class="bg-dark py-4">
         <div class="container px-4 px-lg-5">
-            <div class="small text-center text-white">© 2025 Sally Savista Anindya. All Rights Reserved.</div>
+            <div class="small text-center text-white">© 2025 Sally Savista Anindya</div>
         </div>
     </footer>
+
+    <!-- PROJECT DETAIL MODAL -->
+    <div class="project-modal-overlay" id="projectModal">
+        <div class="project-modal-box" id="projectModalBox">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Tutup">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-img-wrap">
+                <img src="" alt="" class="modal-img" id="modalImg">
+            </div>
+            <div class="modal-body-content">
+                <div class="d-flex align-items-center gap-2 mb-3 flex-wrap">
+                    <span class="badge-semester" id="modalSemester"></span>
+                    <span class="badge-type" id="modalType"></span>
+                </div>
+                <h4 class="modal-project-title" id="modalTitle"></h4>
+                <p class="modal-desc" id="modalDesc"></p>
+                <div class="tech-stack" id="modalTags"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
