@@ -1,22 +1,21 @@
-/* ===========================
-   CSS VARIABLES – PINK AESTHETIC
-   =========================== */
+/* ===========================*
+*   CSS VARIABLES *
+*   =========================== */
 :root {
-    --primary: #FFB6C1;
-    --primary-dark: #FF69B4;
-    --primary-light: #FFC0CB;
-    --secondary-bg: #FFF0F5;
-    --dark: #8B4C6C;
-    --card-pink: #FFE4E9;
+    --primary: #365A7A;
+    --primary-dark: #244563;
+    --primary-light: #B9C9D8;
+    --secondary-bg: #F3F6F9;
+    --dark: #1F344A;
+    --card-pink: #E8EEF4;
 }
-
-/* ===========================
-   NAVBAR
-   =========================== */
+/* ===========================*
+*   NAVBAR*
+*   =========================== */
 .navbar {
-    background: rgba(255, 182, 193, 0.95) !important;
+    background: rgba(243, 246, 249, 0.96) !important;
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(255, 105, 180, 0.2);
+    box-shadow: 0 2px 10px rgba(31, 52, 74, 0.12);
     transition: all 0.3s ease;
 }
 .navbar-brand {
@@ -43,10 +42,9 @@
 }
 .nav-link:hover::after { width: 80%; }
 .nav-link:hover { color: var(--primary-dark) !important; }
-
-/* ===========================
-   HERO / MASTHEAD
-   =========================== */
+/* ===========================*
+*   HERO / MASTHEAD*
+*   =========================== */
 .masthead {
     padding-top: 10rem;
     padding-bottom: 6rem;
@@ -79,27 +77,25 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-/* ===========================
-   PROFILE IMAGE
-   =========================== */
+/* ===========================*
+*   PROFILE IMAGE*
+*   =========================== */
 .profile-img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 6px solid white;
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 8px 20px rgba(31, 52, 74, 0.16);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .profile-img:hover {
     transform: scale(1.07);
-    box-shadow: 0 12px 30px rgba(255, 105, 180, 0.5);
+    box-shadow: 0 12px 30px rgba(31, 52, 74, 0.22);
 }
-
-/* ===========================
-   BUTTON
-   =========================== */
+/* ===========================*
+*   BUTTON*
+*   =========================== */
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-dark), var(--primary));
     border: none;
@@ -108,38 +104,36 @@
     border-radius: 50px;
     color: white;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 5px 15px rgba(31, 52, 74, 0.16);
 }
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--dark), var(--primary-dark));
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5);
+    box-shadow: 0 8px 25px rgba(31, 52, 74, 0.22);
     color: white;
 }
 .btn-xl {
     font-size: 1rem;
     padding: 18px 48px;
 }
-
-/* ===========================
-   SECTIONS
-   =========================== */
+/* ===========================*
+*   SECTIONS*
+*   =========================== */
 .page-section {
     padding: 8rem 0;
     background-color: var(--secondary-bg);
 }
 .bg-light {
-    background: linear-gradient(to bottom, #FFF5F7 0%, #FFE4E9 100%) !important;
+    background: linear-gradient(to bottom, #F7F9FB 0%, #E8EEF4 100%) !important;
 }
 .page-section h2 {
     color: var(--dark);
     font-weight: 700;
     margin-bottom: 1rem;
 }
-
-/* ===========================
-   DIVIDER
-   =========================== */
+/* ===========================*
+*   DIVIDER*
+*   =========================== */
 .divider {
     max-width: 4rem;
     height: 0.3rem;
@@ -150,11 +144,10 @@
     border: none;
     border-radius: 10px;
 }
-
-/* ===========================
-   EDUCATION & EXPERIENCE CARDS
-   (hover only, no click effect)
-   =========================== */
+/* ===========================*
+*   EDUCATION & EXPERIENCE CARDS*
+*   (hover only, no click effect)*
+*   =========================== */
 .education-card,
 .experience-card {
     background: white;
@@ -175,7 +168,7 @@
 .education-card:hover,
 .experience-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(255, 105, 180, 0.25);
+    box-shadow: 0 12px 30px rgba(31, 52, 74, 0.16);
     border-color: var(--primary-dark);
 }
 .education-card .card-title,
@@ -183,10 +176,9 @@
     color: var(--dark);
     font-weight: 700;
 }
-
-/* ===========================
-   ICON WRAPPER
-   =========================== */
+/* ===========================*
+*   ICON WRAPPER*
+*   =========================== */
 .icon-wrapper {
     width: 80px;
     height: 80px;
@@ -203,10 +195,9 @@
     background: linear-gradient(135deg, var(--primary-dark), var(--primary));
 }
 .icon-wrapper i { color: white; }
-
-/* ===========================
-   PROJECT CARDS
-   =========================== */
+/* ===========================*
+*   PROJECT CARDS*
+*   =========================== */
 .project-card {
     background: white;
     border-radius: 20px;
@@ -226,10 +217,9 @@
 }
 .project-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 12px 30px rgba(31, 52, 74, 0.16);
     border-color: var(--primary-dark);
 }
-
 /* Bounce saat klik */
 .project-card.bounce {
     animation: cardBounce 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
@@ -241,7 +231,6 @@
     75%  { transform: scale(1.03); }
     100% { transform: scale(1); }
 }
-
 /* Preview image */
 .project-preview {
     width: 100%;
@@ -258,7 +247,6 @@
 .project-card:hover .project-img {
     transform: scale(1.05);
 }
-
 /* Card text */
 .project-card .card-title {
     color: var(--dark);
@@ -278,10 +266,9 @@
     color: var(--primary-dark);
     font-weight: 600;
 }
-
-/* ===========================
-   BADGES
-   =========================== */
+/* ===========================*
+*   BADGES*
+*   =========================== */
 .badge-semester {
     background: var(--card-pink);
     color: var(--dark);
@@ -300,19 +287,18 @@
     white-space: nowrap;
 }
 .badge-type.web {
-    background: #e8f4fd;
-    color: #1a73e8;
-    border: 1.5px solid #b3d4f5;
+    background: #EAF0F6;
+    color: #365A7A;
+    border: 1.5px solid #C6D3DF;
 }
 .badge-type.mobile {
     background: #e8f5e9;
     color: #2e7d32;
     border: 1.5px solid #a5d6a7;
 }
-
-/* ===========================
-   TECH TAGS
-   =========================== */
+/* ===========================*
+*   TECH TAGS*
+*   =========================== */
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
@@ -327,10 +313,9 @@
     border-radius: 20px;
     border: 1.5px solid var(--primary-light);
 }
-
-/* ===========================
-   CONTACT
-   =========================== */
+/* ===========================*
+*   CONTACT*
+*   =========================== */
 .contact-item {
     padding: 1.5rem;
     margin-bottom: 15px;
@@ -345,20 +330,18 @@
 .contact-item:hover {
     background: linear-gradient(to right, var(--card-pink), white);
     transform: translateX(10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 8px 20px rgba(31, 52, 74, 0.16);
     border-color: var(--primary-dark);
 }
-
-/* ===========================
-   FOOTER
-   =========================== */
+/* ===========================*
+*   FOOTER*
+*   =========================== */
 footer {
     background: linear-gradient(135deg, var(--dark), var(--primary-dark)) !important;
 }
-
-/* ===========================
-   PROJECT MODAL
-   =========================== */
+/* ===========================*
+*   PROJECT MODAL*
+*   =========================== */
 .project-modal-overlay {
     display: none;
     position: fixed;
@@ -373,7 +356,6 @@ footer {
 .project-modal-overlay.active {
     display: flex;
 }
-
 /* Animasi pop masuk */
 .project-modal-box {
     background: white;
@@ -383,7 +365,7 @@ footer {
     max-height: 88vh;
     overflow-y: auto;
     position: relative;
-    box-shadow: 0 20px 60px rgba(255, 105, 180, 0.35);
+    box-shadow: 0 20px 60px rgba(31, 52, 74, 0.18);
     border: 3px solid var(--primary-light);
     animation: modalPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
@@ -391,7 +373,6 @@ footer {
     from { opacity: 0; transform: scale(0.8) translateY(30px); }
     to   { opacity: 1; transform: scale(1) translateY(0); }
 }
-
 .modal-close-btn {
     position: absolute;
     top: 14px;
@@ -416,7 +397,6 @@ footer {
     border-color: var(--primary-dark);
     transform: scale(1.1);
 }
-
 .modal-img-wrap {
     width: 100%;
     height: 240px;
@@ -429,11 +409,9 @@ footer {
     height: 100%;
     object-fit: cover;
 }
-
 .modal-body-content {
     padding: 1.75rem;
 }
-
 .modal-project-title {
     color: var(--dark);
     font-weight: 700;
@@ -446,10 +424,9 @@ footer {
     line-height: 1.75;
     margin-bottom: 1rem;
 }
-
-/* ===========================
-   RESPONSIVE
-   =========================== */
+/* ===========================*
+*   RESPONSIVE*
+*   =========================== */
 @media (max-width: 991px) {
     .masthead { padding-top: 8rem; padding-bottom: 5rem; min-height: auto; }
     .masthead h2 { font-size: 1.6rem; }
