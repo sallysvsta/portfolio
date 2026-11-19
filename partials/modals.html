@@ -1,0 +1,24 @@
+<!-- PROJECT DETAIL MODAL -->
+    <div class="modal" id="projectModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalCloseBtn" aria-label="Close project details"><i class="fas fa-xmark"></i></button>
+            <div class="modal-media"><img src="" alt="" id="modalImg"></div>
+            <div class="modal-body">
+                <div class="meta-row" id="modalMeta"></div>
+                <h3 id="modalTitle"></h3>
+                <p class="project-sub" id="modalSub"></p>
+                <div class="modal-details" id="modalDetails"></div>
+                <ul class="chip-row" id="modalTags"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- IMAGE LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview"><i class="fas fa-xmark"></i></button>
+        <figure class="lightbox-fig">
+            <img src="" alt="" id="lightboxImg">
+            <figcaption id="lightboxCap"></figcaption>
+        </figure>
+    </div>

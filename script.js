@@ -1,6 +1,7 @@
 document.documentElement.classList.add('js');
 
-document.addEventListener('DOMContentLoaded', function () {
+// Called by includes.js once every partial has been inserted into the page
+window.initPortfolio = function () {
 
     // ===========================
     // FOOTER YEAR
@@ -199,6 +200,26 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // Organization (experience) images: click to preview, same lightbox as projects
+    document.querySelectorAll('.org-media').forEach(function (media) {
+        var img = media.querySelector('img');
+        var caption = media.getAttribute('data-caption') || img.getAttribute('alt');
+
+        // Hide the figure if the image file is missing, so no broken icon shows
+        img.addEventListener('error', function () { media.hidden = true; });
+
+        var zoom = document.createElement('button');
+        zoom.type = 'button';
+        zoom.className = 'zoom-btn';
+        zoom.setAttribute('aria-label', 'Enlarge image: ' + caption);
+        zoom.innerHTML = '<i class="fas fa-magnifying-glass-plus"></i><span>Enlarge</span>';
+        media.appendChild(zoom);
+
+        media.addEventListener('click', function () {
+            openLightbox(img.getAttribute('src'), img.getAttribute('alt'), caption, zoom);
+        });
+    });
+
     // Image inside the project details modal can be enlarged too
     var modalMedia = modal.querySelector('.modal-media');
     modalMedia.addEventListener('click', function () {
@@ -218,4 +239,4 @@ document.addEventListener('DOMContentLoaded', function () {
             setNav(false);
         }
     });
-});
+};
